@@ -1,14 +1,14 @@
 function Click(numbers){
-    document.getElementById('inp').value += numbers
+    document.getElementById('Screen').value += numbers
 }
 function Allclear() {
-    document.getElementById('inp').value = ''
+    document.getElementById('Screen').value = ''
 }
 function  Clear() {
-    document.getElementById('inp').value = document.getElementById('inp').value.slice(-0, -1)
+    document.getElementById('Screen').value = document.getElementById('Screen').value.slice(-0, -1)
 }
 
 function equal() {
-    let calculate = document.getElementById('inp')
+    let calculate = document.getElementById('Screen')
     calculate.value = eval(calculate.value)
 }
