@@ -1,2 +1,2 @@
-# <a href="https://ios-calculator-clone-hb.netlify.app/">Visit calculator!</a>
+# <a href="https://ios-calculator-clone-hb.netlify.app/">calculator!</a>
 
