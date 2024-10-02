@@ -1,310 +1,292 @@
-@media screen and (max-width: 1440px) {    
-    
-    .btns>button{
-        width: 18%;
-        height: 10vh;
-        border-radius: 50px;
-        border: none;
-        font-size: 1.2rem;
-        margin-bottom: 10px;
-    }
-    
-    #zero{
-        width: 39%;
-        text-align: start;
-        padding-left: 30px;
-    }
-}
+@media screen and (max-width: 1440px) {
+  .btns > button {
+    width: 18%;
+    height: 10vh;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
 
+  #zero {
+    width: 39%;
+    text-align: start;
+    padding-left: 30px;
+  }
+}
 
 @media screen and (max-width: 1366px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100vh;
-        
-    }
-    
-    
-    .frame {
-        background-color: #000;
-        width: 28%;
-        height: 88vh;
-        border-radius: 20px;
-        border: solid 3px #747474;
-        box-shadow: inset 0px 0px 10px 2px #929292;
-        padding: 0px 15px;
-    }
-    
-    .screen{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .screen>input{
-        width: 85%;
-        height: 11vh;
-        background-color: #272727;
-        border-radius: 10px;
-        border: none;
-        outline: none;
-        color: #fff;
-        font-size: 2.5rem;
-        text-align: right;
-        padding-right: 10px;
-        margin-top: 45px;
-        margin-bottom: 30px;
-        box-shadow: inset 0px 0px 20px 3px #5f5f5f;
-    }
-    
-    .screen>input::placeholder{
-        color: #fff;
-    }
-    
-    .btns{
-        display: flex;
-        justify-content: center;
-        gap: 0px 10px;
-    }
-    
-    .btns>button{
-        width: 19%;
-        height: 10vh;
-        border-radius: 50px;
-        border: none;
-        font-size: 1.2rem;
-        margin-bottom: 10px;
-    }
-    
-    .lg_btns>button{
-        background-color: #929292;
-    
-    }
-    
-    .dg_btns>button{
-        background-color: #272727;
-        color: #fff;
-    }
-    
-    #orn_btn{
-        background-color: orange;
-        color: #fff;
-    }
-    
-    #zero{
-        width: 41%;
-        text-align: start;
-        padding-left: 30px;
-    }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .frame {
+    background-color: #000;
+    width: 28%;
+    height: 88vh;
+    border-radius: 20px;
+    border: solid 3px #747474;
+    padding: 0px 15px;
+  }
+
+  .screen {
+    display: flex;
+    justify-content: center;
+  }
+
+  .screen > input {
+    width: 85%;
+    height: 11vh;
+    background-color: #272727;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    box-shadow: inset 0px 0px 20px 3px #5f5f5f;
+  }
+
+  .screen > input::placeholder {
+    color: #fff;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: center;
+    gap: 0px 10px;
+  }
+
+  .btns > button {
+    width: 19%;
+    height: 10vh;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .lg_btns > button {
+    background-color: #929292;
+  }
+
+  .dg_btns > button {
+    background-color: #272727;
+    color: #fff;
+  }
+
+  #orn_btn {
+    background-color: orange;
+    color: #fff;
+  }
+
+  #zero {
+    width: 41%;
+    text-align: start;
+    padding-left: 30px;
+  }
 }
 
-@media screen and (max-width: 1260px) {    
-    
-    .btns{
-        gap: 0px 10px;
-    }
-    
-    .btns>button{
-        width: 20%;
-        height: 10vh;
-        font-size: 1rem;
-    }
-    
-    #zero{
-        width: 43%; 
-        padding-left: 28px;
-    }
+@media screen and (max-width: 1260px) {
+  .btns {
+    gap: 0px 10px;
+  }
+
+  .btns > button {
+    width: 20%;
+    height: 10vh;
+    font-size: 1rem;
+  }
+
+  #zero {
+    width: 43%;
+    padding-left: 28px;
+  }
 }
 
-@media screen and (max-width: 1024px) {  
-    
-        
-    .frame {
-        width: 30%;
-        height: 88vh;
-        padding: 0px 15px;
-    }
-    
-    .btns{
-        gap: 0px 6px;
-    }
-    
-    .btns>button{
-        width: 21%;
-        height: 10vh;
-        font-size: 1rem;
-    }
-    
-    #zero{
-        width: 44%; 
-        padding-left: 26px;
-    }
+@media screen and (max-width: 1024px) {
+  .frame {
+    width: 30%;
+    height: 88vh;
+    padding: 0px 15px;
+  }
+
+  .btns {
+    gap: 0px 6px;
+  }
+
+  .btns > button {
+    width: 21%;
+    height: 10vh;
+    font-size: 1rem;
+  }
+
+  #zero {
+    width: 44%;
+    padding-left: 26px;
+  }
 }
 
-@media screen and (max-width: 950px) {      
-    
-    .frame {
-        width: 32%;
-        height: 88vh;
-        padding: 0px 15px;
-    }
-    
-    .screen>input{
-        width: 90%;
-        height: 10vh;
-        font-size: 2.2rem;
-        padding-right: 10px;
-    }
+@media screen and (max-width: 950px) {
+  .frame {
+    width: 32%;
+    height: 88vh;
+    padding: 0px 15px;
+  }
 
-    .btns{
-        gap: 0px 6px;
-    }
-    
-    .btns>button{
-        width: 21%;
-        height: 10vh;
-        font-size: 1rem;
-    }
-    
-    #zero{
-        width: 45%; 
-        padding-left: 25px;
-    }
+  .screen > input {
+    width: 90%;
+    height: 10vh;
+    font-size: 2.2rem;
+    padding-right: 10px;
+  }
+
+  .btns {
+    gap: 0px 6px;
+  }
+
+  .btns > button {
+    width: 21%;
+    height: 10vh;
+    font-size: 1rem;
+  }
+
+  #zero {
+    width: 45%;
+    padding-left: 25px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .frame {
+    width: 41%;
+    height: 88vh;
+    padding: 0px 15px;
+  }
 
-@media screen and (max-width: 768px) {      
-    
-    .frame {
-        width: 41%;
-        height: 88vh;
-        padding: 0px 15px;
-    }
-    
-    .screen>input{
-        width: 90%;
-        height: 10vh;
-        font-size: 2.2rem;
-        padding-right: 10px;
-    }
+  .screen > input {
+    width: 90%;
+    height: 10vh;
+    font-size: 2.2rem;
+    padding-right: 10px;
+  }
 
-    .btns{
-        gap: 0px 4px;
-    }
-    
-    .btns>button{
-        width: 21%;
-        height: 10vh;
-        font-size: 1rem;
-    }
-    
-    #zero{
-        width: 44%; 
-        padding-left: 25px;
-    }
+  .btns {
+    gap: 0px 4px;
+  }
+
+  .btns > button {
+    width: 21%;
+    height: 10vh;
+    font-size: 1rem;
+  }
+
+  #zero {
+    width: 44%;
+    padding-left: 25px;
+  }
 }
 
-@media screen and (max-width: 700px) {      
-    
-    .frame {
-        width: 45%;
-        height: 88vh;
-        padding: 0px 15px;
-    }
-    
-    .screen>input{
-        width: 90%;
-        height: 10vh;
-        font-size: 2.1rem;
-        padding-right: 10px;
-    }
+@media screen and (max-width: 700px) {
+  .frame {
+    width: 45%;
+    height: 88vh;
+    padding: 0px 15px;
+  }
 
-    .btns{
-        gap: 0px 4px;
-    }
-    
-    .btns>button{
-        width: 21%;
-        height: 10vh;
-        font-size: 1rem;
-    }
-    
-    #zero{
-        width: 44%; 
-        padding-left: 26px;
-    }
+  .screen > input {
+    width: 90%;
+    height: 10vh;
+    font-size: 2.1rem;
+    padding-right: 10px;
+  }
+
+  .btns {
+    gap: 0px 4px;
+  }
+
+  .btns > button {
+    width: 21%;
+    height: 10vh;
+    font-size: 1rem;
+  }
+
+  #zero {
+    width: 44%;
+    padding-left: 26px;
+  }
 }
 
-@media screen and (max-width: 600px) {      
-    
-    .frame {
-        width: 50%;
-        height: 88vh;
-    }
+@media screen and (max-width: 600px) {
+  .frame {
+    width: 50%;
+    height: 88vh;
+  }
 }
 
-@media screen and (max-width: 425px) {      
-    
-    .frame {
-        width: 75%;
-        height: 88vh;
-        padding: 0px 15px;
-    }
+@media screen and (max-width: 425px) {
+  .frame {
+    width: 75%;
+    height: 88vh;
+    padding: 0px 15px;
+  }
 
-    .btns{
-        gap: 0px 8px;
-    }
-    
-    .btns>button{
-        width: 20%;
-        height: 10vh;
-        font-size: 0.9rem;
-    }
+  .btns {
+    gap: 0px 8px;
+  }
+
+  .btns > button {
+    width: 20%;
+    height: 10vh;
+    font-size: 0.9rem;
+  }
 }
 
-@media screen and (max-width: 375px) {      
-    
-    .frame {
-        width: 84%;
-    }
+@media screen and (max-width: 375px) {
+  .frame {
+    width: 84%;
+  }
 
-    .btns{
-        gap: 0px 8px;
-    }
-    
-    .btns>button{
-        width: 20%;
-        font-size: 0.9rem;
-    }
+  .btns {
+    gap: 0px 8px;
+  }
 
-    #zero{
-        width: 43%; 
-        padding-left: 26px;
-    }
+  .btns > button {
+    width: 20%;
+    font-size: 0.9rem;
+  }
+
+  #zero {
+    width: 43%;
+    padding-left: 26px;
+  }
 }
 
-@media screen and (max-width: 320px) {      
-    
-    .frame {
-        width: 90%;
-        height: 84vh;
-    }
+@media screen and (max-width: 320px) {
+  .frame {
+    width: 90%;
+    height: 84vh;
+  }
 
-    .btns{
-        gap: 0px 6px;
-    }
-    
-    .btns>button{
-        width: 20%;
-        height: 9vh;
-        font-size: 0.8rem;
-    }
+  .btns {
+    gap: 0px 6px;
+  }
 
-    #zero{
-        width: 43%; 
-        padding-left: 24px;
-    }
+  .btns > button {
+    width: 20%;
+    height: 9vh;
+    font-size: 0.8rem;
+  }
+
+  #zero {
+    width: 43%;
+    padding-left: 24px;
+  }
 }
-
